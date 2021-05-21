@@ -1,0 +1,51 @@
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #ccc;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+body{
+    background-color: #ededed;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+.in-flex{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div {
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+

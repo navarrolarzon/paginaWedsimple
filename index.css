@@ -1,5 +1,5 @@
 body{
-    background-image: url(fondo.jpg);
+    background-color: #ef8354;
     margin:0;
 }
 .menu{
@@ -45,9 +45,14 @@ table{
     width: 300px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
 }
 .Imagen:hover{
  /* transform:rotate(30deg);    */   
     transform: scale(1.2);
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
 }
-
